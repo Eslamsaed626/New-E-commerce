@@ -394,7 +394,7 @@ body {
 
 /* start banner-3 */
 #banner-3 {
-    margin: 40px 0;
+    margin: 80px 0;
 }
 
 #banner-3 .container-fluid {
@@ -450,6 +450,7 @@ body {
     height: 200px;
     background-image: url('/img/banner/b14.png');
     background-color: #041e42;
+    margin: 80px 0;
 }
 
 #news .container {
@@ -500,4 +501,48 @@ body {
 
 
 /* start news */
+
+/* footer */
+footer {
+    margin: 80px 0;
+}
+
+footer .container .row div:first-child ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer .container .row div:first-child ul li {
+    margin: 0px 15px 0 0;
+}
+
+footer .container .row div:first-child ul li a {
+    color: #525252;
+}
+
+
+footer .container h4 {
+    font-size: 21px;
+    margin-top: 14px;
+    font-weight: bold;
+}
+
+
+footer .container .row div:nth-child(2) a,
+footer .container .row div:nth-child(3) a {
+    margin: 10px 0;
+    display: block;
+    text-decoration: none;
+    color: #3c3a3a;
+    font-size: 18px;
+}
+
+footer .container .row div:nth-child(4) .apps img {
+    border: 2px solid #48bfb9;
+    border-color: #48bfb9 #4f7e7b #48bfb9 #4f7e7b;
+    border-radius: 5px;
+}
+
+/* footer */
 /* end index page */
