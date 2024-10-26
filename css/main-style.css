@@ -202,8 +202,8 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-/* 
-.products-container .product {
+
+.products-container a {
     width: 23%;
     min-width: 250px;
     padding: 10px 12px;
@@ -214,9 +214,10 @@ body {
     margin: 15px 0;
     transition: all .4s ease;
     position: relative;
+    text-decoration: none;
 }
 
-.products-container .product:hover {
+.products-container a:hover {
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
 }
 
@@ -233,13 +234,14 @@ body {
 
 .products-container .product .des span {
     color: #606063;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .products-container .product .des h5 {
     padding-top: 7px;
     color: #1a1a1a;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .products-container .product .des i {
@@ -261,7 +263,7 @@ body {
     margin: 0;
 }
 
-.products-container .product .des .des-fot a {
+.products-container .product .des .des-fot span {
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -269,12 +271,13 @@ body {
     font-weight: 500;
     border: 1px solid #cce7d0;
     padding: 8px;
+    line-height: 23px;
 }
 
-.products-container .product .des .des-fot a i {
+.products-container .product .des .des-fot span i {
     color: #088178;
     font-size: 15px;
-} */
+}
 
 /* featur-product section */
 
@@ -462,8 +465,7 @@ body {
 }
 
 #news .container .input {
-    background: #fff;
-    border-radius: 10px;
+    display: flex;
 }
 
 #news .container h2 {
@@ -484,7 +486,7 @@ body {
     border: none;
     outline: none;
     border-radius: 10px 0 0 10px;
-    width: 416px;
+    width: 380px;
 }
 
 #news .container .input button {
@@ -496,8 +498,6 @@ body {
     border-radius: 0 10px 10px 0;
     font-weight: bold;
 }
-
-
 
 
 /* start news */

@@ -1,11 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../css/main-style.css">
+  <link rel="stylesheet" href="../css/blog.css">
+  <title>Shop</title>
 </head>
+
 <body>
-    
+
+  <!-- nar bar -->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="../img/logo.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+          <a class="nav-link" href="./shop.html">Shop</a>
+          <a class="nav-link active" href="./blog.html">Blog</a>
+          <a class="nav-link" href="./about.html">About</a>
+          <a class="nav-link" href="./contact.html">Contact</a>
+          <a class="nav-link" href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- nar bar -->
+
+
+
+  <!-- header section -->
+  <section id="page-haeder">
+    <div class="container">
+      <h2>#readmore</h2>
+      <p>Read all case studies about our products!</p>
+    </div>
+  </section>
+  <!-- header section -->
+ 
+
+
+  <!-- blog section -->
+   <section class="blog">
+    <div class="container">
+        <div class="row mb-5 align-items-center">
+            <div class="col-md-4 blog-img">
+                <h3>31/12</h3>
+                <img src="../img/blog/b1.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-8 blog-details">
+                <h4>the cotton-jersy zip-up hoodie</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam blanditiis praesentium quibusdam dignissimos minima voluptas, quasi impedit cum saepe exercitationem, ipsa corporis quod tempore harum eius maxime, expedita incidunt ea!</p>
+                <a href="#">continue reading</a>
+            </div>
+        </div>
+
+
+        <div class="row mb-5 align-items-center">
+            <div class="col-md-4 blog-img">
+                <h3>31/1</h3>
+                <img src="../img/blog/b2.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-8 blog-details">
+                <h4>the cotton-jersy zip-up hoodie</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam blanditiis praesentium quibusdam dignissimos minima voluptas, quasi impedit cum saepe exercitationem, ipsa corporis quod tempore harum eius maxime, expedita incidunt ea!</p>
+                <a href="#">continue reading</a>
+            </div>
+        </div>
+        <div class="row mb-5 align-items-center">
+            <div class="col-md-4 blog-img">
+                <h3>31/2</h3>
+                <img src="../img/blog/b3.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-8 blog-details">
+                <h4>the cotton-jersy zip-up hoodie</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam blanditiis praesentium quibusdam dignissimos minima voluptas, quasi impedit cum saepe exercitationem, ipsa corporis quod tempore harum eius maxime, expedita incidunt ea!</p>
+                <a href="#">continue reading</a>
+            </div>
+        </div>
+
+        <div class="row mb-5 align-items-center">            
+            <div class="col-md-4 blog-img">
+                <h3>31/4</h3>
+                <img src="../img/blog/b4.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-8 blog-details">
+                <h4>the cotton-jersy zip-up hoodie</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam blanditiis praesentium quibusdam dignissimos minima voluptas, quasi impedit cum saepe exercitationem, ipsa corporis quod tempore harum eius maxime, expedita incidunt ea!</p>
+                <a href="#">continue reading</a>
+            </div>
+        </div>
+
+    </div>
+   </section>
+  <!-- blog section -->
+
+
+
+  <section class="pagination">
+    <div class="container">
+
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+  <!-- news -->
+  <section id="news">
+    <div class="container">
+      <div>
+        <h2>Sign Up For NewsLetter</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span>Cumque, saepe.</span></p>
+      </div>
+      <div class="input">
+        <input type="text" placeholder="Your email address">
+        <button>Sign Up</button>
+      </div>
+    </div>
+  </section>
+  <!-- news -->
+
+
+
+  <!-- start footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col col-md-4 col-sm-6 ">
+          <img src=".../img/products/f1.jpg/logo.png">
+          <h4>contact</h4>
+          <p><strong>Address: </strong>262 Wellington Road ,street 32 san fracisco</p>
+          <p><strong>Phone: </strong>+00 0000 000/(+32) 00 0000 0000</p>
+          <p><strong>Hours: </strong>10:00 - 18:00 , mon-sat</p>
+          <h4>Follow Up</h4>
+          <ul class="list-unstyled">
+            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="col col-md-2 col-sm-6 ">
+          <h4>About</h4>
+          <a href="#">About Us</a>
+          <a href="#">Delivery Information</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col col-md-2 col-sm-6 ">
+          <h4>My Account</h4>
+          <a href="#">Sign In</a>
+          <a href="#">View Cart</a>
+          <a href="#">My WishList</a>
+          <a href="#">Track My Order</a>
+          <a href="#">Help</a>
+        </div>
+
+        <div class="col col-md-4 col-sm-6 ">
+          <h4>Install App</h4>
+          <p>From App Store Or Google Play</p>
+          <div class="apps">
+            <img src="../img/pay/app.jpg">
+            <img src="../img/pay/play.jpg">
+          </div>
+          <p>From App Store Or Google Play</p>
+          <img src="../img/pay/pay.png">
+        </div>
+
+      </div>
+
+      <div class="copy">
+        &copy; 2024 ,Eslam Said ,HTML CSS JAVASCRIPT TEMPLATE
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
 </body>
+
 </html>
