@@ -1,0 +1,164 @@
+{
+  "allproduct":{
+
+    "featurproducts":[
+      {
+          "id": 1,
+          "price": 50,
+          "title": "cartoon astronaut t-shirts",
+          "prand": "Nike",
+          "rate": 5,
+          "image":"../img/products/f1.jpg"
+        },
+        {
+          "id": 2,
+          "price": 33,
+          "title": "cartoon astronaut t-shirts",
+          "prand": "Adidas",
+          "rate": 4,
+          "image":"../img/products/f2.jpg"
+        },
+        {
+          "id": 3,
+          "price": 45,
+          "title": "cartoon astronaut t-shirts",
+          "prand": "Adidas",
+          "rate": 4,
+          "image":"../img/products/f3.jpg"
+        },
+        {
+          "id": 4,
+          "price": 57,
+          "title": "cartoon astronaut t-shirts",
+          "prand": "adidas",
+          "rate": 3,
+          "image":"../img/products/f4.jpg"
+        },
+        {
+          "id": 5,
+          "price": 35,
+          "title": "cartoon astronaut t-shirts",
+          "prand": "adidas",
+          "rate": 2,
+          "image":"../img/products/f5.jpg"
+        },
+        {
+          "id": 6,
+          "price": 87,
+          "title": "cartoon astronaut t-shirts",
+          "prand": "adidas",
+          "rate": 2,
+          "image":"../img/products/f6.jpg"
+        },
+        {
+          "id": 7,
+          "price": 20,
+          "title": "cartoon astronaut t-shirts",
+          "prand": "adidas",
+          "rate": 2,
+          "image":"../img/products/f7.jpg"
+        },
+        {
+          "id": 8,
+          "price": 100,
+          "title": "cartoon astronaut t-shirts",
+          "prand": "adidas",
+          "rate": 2,
+          "image":"../img/products/f8.jpg"
+        }
+  ],
+  "newArrivel":[
+    {
+        "id": 9,
+        "price": 56,
+        "title": "cartoon astronaut t-shirts",
+        "prand": "Nike",
+        "rate": 5,
+        "image":"../img/products/n1.jpg"
+      },
+      {
+        "id": 10,
+        "price": 33,
+        "title": "cartoon astronaut t-shirts",
+        "prand": "Adidas",
+        "rate": 4,
+        "image":"../img/products/n2.jpg"
+      },
+      {
+        "id": 11,
+        "price": 45,
+        "title": "cartoon astronaut t-shirts",
+        "prand": "Adidas",
+        "rate": 4,
+        "image":"../img/products/n3.jpg"
+      },
+      {
+        "id": 12,
+        "price": 57,
+        "title": "cartoon astronaut t-shirts",
+        "prand": "adidas",
+        "rate": 3,
+        "image":"../img/products/n4.jpg"
+      },
+      {
+        "id": 13,
+        "price": 35,
+        "title": "cartoon astronaut t-shirts",
+        "prand": "adidas",
+        "rate": 2,
+        "image":"../img/products/n5.jpg"
+      },
+      {
+        "id": 14,
+        "price": 870,
+        "title": "cartoon astronaut t-shirts",
+        "prand": "adidas",
+        "rate": 2,
+        "image":"../img/products/n6.jpg"
+      },
+      {
+        "id": 15,
+        "price": 200,
+        "title": "cartoon astronaut t-shirts",
+        "prand": "adidas",
+        "rate": 2,
+        "image":"../img/products/n7.jpg"
+      },
+      {
+        "id": 16,
+        "price": 10,
+        "title": "cartoon astronaut t-shirts",
+        "prand": "adidas",
+        "rate": 2,
+        "image":"../img/products/n8.jpg"
+      }
+  ]
+  },
+
+
+
+
+"blogs":[
+  {
+      "id": 1,
+      "title": "the cotton-jersy zip-up hoodie",
+      "decscrption":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam blanditiis praesentium quibusdam dignissimos minima voluptas, quasi impedit cum saepe exercitationem, ipsa corporis quod tempore harum eius maxime, expedita incidunt ea!"
+    },
+    {
+      "id": 2,
+      "title": "the cotton-jersy zip-up hoodie",
+ "decscrption":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam blanditiis praesentium quibusdam dignissimos minima voluptas, quasi impedit cum saepe exercitationem, ipsa corporis quod tempore harum eius maxime, expedita incidunt ea!"
+    },
+    {
+      "id": 3,
+      "title": "the cotton-jersy zip-up hoodie",
+"decscrption":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam blanditiis praesentium quibusdam dignissimos minima voluptas, quasi impedit cum saepe exercitationem, ipsa corporis quod tempore harum eius maxime, expedita incidunt ea!"
+    },
+    {
+      "id": 4,
+      "title": "the cotton-jersy zip-up hoodie",
+"decscrption":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam blanditiis praesentium quibusdam dignissimos minima voluptas, quasi impedit cum saepe exercitationem, ipsa corporis quod tempore harum eius maxime, expedita incidunt ea!"
+    }
+]
+}
+
