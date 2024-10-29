@@ -12,14 +12,14 @@ const newArrivelcon = document.querySelector(".newArrivelcon");
 
 
 let allData,
-featurPro,
-Arrivel,
-allproduct;
+    featurPro,
+    Arrivel,
+    allproduct;
 // console.log(productItem);
 
 // product details main image
-smallImag.forEach((img)=>{
-    img.addEventListener("click",function(){
+smallImag.forEach((img) => {
+    img.addEventListener("click", function () {
         console.log(img.src);
         imgSrc = img.src;
         mainImag.src = imgSrc;
@@ -31,24 +31,21 @@ smallImag.forEach((img)=>{
 // get products all items form products.json
 
 const xhttp = new XMLHttpRequest();
-xhttp.onload = function(){
+xhttp.onload = function () {
 
-    // let products = JSON.parse(xhttp.responseText)
-    // console.log(products.products);
-    
-    if(this.readyState === 4 && this.status === 200){
+    if (this.readyState === 4 && this.status === 200) {
         allData = JSON.parse(xhttp.responseText);
         allproduct = allData.allproduct;
         // console.log(allproduct);
-        
+
         featurPro = allproduct.featurproducts;
         Arrivel = allproduct.newArrivel;
         // console.log(featurPro);
         // console.log(Arrivel);
-        
+
         // get all featur product
         for (let i = 0; i < featurPro.length; i++) {
-       let product = `
+            let product = `
          <a id="${featurPro[i].id}" class="item" onclick="get(${featurPro[i].id})">
               <div class="product">
                 <img src="${featurPro[i].image}" width="100%">
@@ -70,12 +67,7 @@ xhttp.onload = function(){
               </div>
             </a>
         `;
-        featProduct.innerHTML+=product
-
-        // product.addEventListener("click",function(){
-        //     console.log(this.id);
-            
-        // })
+            featProduct.innerHTML += product;
         }
 
 
@@ -106,9 +98,9 @@ xhttp.onload = function(){
                    </div>
                  </a>
              `;
-             newArrivelcon.innerHTML+=product;
-             }
-        
+            newArrivelcon.innerHTML += product;
+        }
+
     }
 
 }
@@ -117,8 +109,24 @@ xhttp.send();
 
 
 
-function get(id){
-   found = featurPro.find((ele)=>{
-    return ele.id === id
-   })
+
+
+function get(id) {
+    // console.log("eslam");
+    found = featurPro.find((ele) => {
+        return ele.id === id
+    });
+    console.log(found);
+
+    sessionStorage.setItem('found', JSON.stringify(found))
+    showproDetails(sessionStorage.getItem(found));
+    window.location.href = "/pages/productDetails.html";
+}
+
+function showproDetails(product) {
+    // window.reload()
+    if (window.location.href = "/pages/productDetails.html") {
+        console.log(product);
+
+    }
 }

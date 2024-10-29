@@ -1,0 +1,109 @@
+.cart-product table {
+    text-align: center;
+    margin-top: 45px;
+}
+
+
+.cart-product table thead {
+    border-bottom: 3px solid #eee;
+    /* margin-bottom: 20px; */
+}
+
+.cart-product table thead th {
+    padding-bottom: 10px;
+}
+
+.cart-product table tbody tr td {
+    padding: 15px 0;
+    border-bottom: 1px solid #aaa;
+}
+
+.cart-product table tbody tr:last-child td {
+    border: none;
+}
+
+.cart-product table tbody tr td:first-child i {
+    font-size: 14px;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cart-product table tbody tr td:nth-child(2) {
+    width: 100px;
+    height: 115px;
+}
+
+.cart-product table tbody tr td:nth-child(2) img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.cart-product table tbody tr td:nth-child(5) input {
+    width: 100px;
+    padding: 10px;
+}
+
+.copons {
+    margin: 80px 0;
+}
+
+.copons .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copons .copone {
+
+    width: 50%;
+
+}
+
+
+.copons .copone h3 {
+    font-weight: 600;
+}
+
+
+.copons .copone div {
+    display: flex;
+    margin-top: 20px;
+}
+
+.copons .copone div input {
+    width: 60%;
+    padding: 7px;
+    outline: none;
+    border: 1px solid #aaa;
+    margin-right: 7px;
+    border-radius: 4px;
+}
+
+
+.copons .copone div button {
+    border: none;
+    outline: none;
+    padding: 11px 21px;
+    background: #51cf5b;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.copons .Carttotla {
+    width: 50%;
+    border: 1px solid #c5c5c5;
+    padding: 25px;
+}
+
+
+
+.copons .Carttotla table tr td {
+    width: 50%;
+    border: 1px solid #c5c5c5;
+    padding: 5px;
+}
